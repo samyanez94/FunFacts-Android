@@ -5,31 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#51B46D"
+    android:padding="50dp"
     tools:context="com.example.sam.funfacts.FunFactsActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
+        android:layout_marginLeft="0dp"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
         android:text="Did you know?"
         android:textColor="#80FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.033" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/factTextView"
-        android:layout_width="334dp"
-        android:layout_height="66dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
+        android:layout_width="282dp"
+        android:layout_height="84dp"
         android:text="Ants stretch when they wake up in the morning."
         android:textColor="#FFF"
         android:textSize="24sp"
@@ -37,15 +35,16 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.505" />
+        app:layout_constraintVertical_bias="0.529"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginRight="5dp" />
 
     <Button
         android:id="@+id/showFactButton"
-        android:layout_width="326dp"
-        android:layout_height="43dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
+        android:layout_width="274dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="-7dp"
         android:background="#FFF"
         android:text="Show Another Fun Fact"
         android:textSize="16sp"
