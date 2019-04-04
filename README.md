@@ -1,5 +1,5 @@
 # FunFacts
-A simple Android application made with Java. The app serves up some fun facts when the user taps on a button. I built this as a way to practice Android development and learn some very basic concepts of the Android SDK.
+A simple Android application made with Java. The app serves up some fun facts when the user taps on a button. I built this as a way to practice Android development and learn some of the very basic concepts in the Android SDK.
 
 ## Minimum SDK
 
